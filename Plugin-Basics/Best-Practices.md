@@ -119,33 +119,31 @@ if(!class_exists('WPOrg_Plugin')) {
 	}
 ```
 
-### Architecture Patterns [#Architecture Patterns](https://developer.wordpress.org/plugins/the-basics/best-practices/#architecture-patterns)
+### 结构模式 [#结构模式](https://developer.wordpress.org/plugins/the-basics/best-practices/#architecture-patterns)
 
-While there are a number of possible architecture patterns, they can broadly be grouped into three variations:
+这有很多合理的结构模式，他们大致可以分为三类：
 
-- [Single plugin file, containing functions](https://github.com/GaryJones/move-floating-social-bar-in-genesis/blob/master/move-floating-social-bar-in-genesis.php)
-- [Single plugin file, containing a class, instantiated object and optionally functions](https://github.com/norcross/wp-comment-notes/blob/master/wp-comment-notes.php)
-- [Main plugin file, then one or more class files](https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate)
-
-[Top ↑](https://developer.wordpress.org/plugins/the-basics/best-practices/#top)
+- [单个文件，包含一些 functions](https://github.com/GaryJones/move-floating-social-bar-in-genesis/blob/master/move-floating-social-bar-in-genesis.php)
+- [单个文件，包含一个类，实例的对象和一些functions](https://github.com/norcross/wp-comment-notes/blob/master/wp-comment-notes.php)
+- [主要的插件文件，和一个或者更多的类文件](https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate)
 
 ### Architecture Patterns Explained [#Architecture Patterns Explained](https://developer.wordpress.org/plugins/the-basics/best-practices/#architecture-patterns-explained)
 
-Specific implementations of the more complex of the above code organizations have already been written up as tutorials and slides:
+以上代码组织中更复杂的具体实现已经被编写为教程和幻灯片:
 
 - [Slash – Singletons, Loaders, Actions, Screens, Handlers](http://jaco.by/2012/12/12/slash-architecture-my-approach-to-building-wordpress-plugins/)
 - [An MVC Inspired Approach to WordPress Plugin Development](http://www.renegadetechconsulting.com/tutorials/an-mvc-inspired-approach-to-wordpress-plugin-development)
 - [Implementing the MVC Pattern in WordPress Plugins](http://iandunn.name/wp-mvc)
 
-[Top ↑](https://developer.wordpress.org/plugins/the-basics/best-practices/#top)
+[](https://developer.wordpress.org/plugins/the-basics/best-practices/#top)
 
-## Boilerplate Starting Points [#Boilerplate Starting Points](https://developer.wordpress.org/plugins/the-basics/best-practices/#boilerplate-starting-points)
+## 插件模板（可理解为框架） [#Boilerplate Starting Points](https://developer.wordpress.org/plugins/the-basics/best-practices/#boilerplate-starting-points)
 
-Instead of starting from scratch for each new plugin you write, you may want to start with a **boilerplate**. One advantage of using a boilerplate is to have consistency among your own plugins. Boilerplates also make it easier for other people to contribute to your code if you use a boilerplate they are already familiar with.
+是不是每次创建新插件都要从头开始整理思绪？或许你可以使用框架。框架的优势在于可以保持多个插件之间结构一致性。 框架也可以让其他人更容易为你的插件贡献代码，因为你用的这个框架他们也很熟悉。
 
-These also serve as further examples of different yet comparable architectures.
+一些不太一样，但看上去还不错的值得深入的了解的案例
 
-- [WordPress Plugin Boilerplate](https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate): A foundation for WordPress Plugin Development that aims to provide a clear and consistent guide for building your plugins.
+- [WordPress Plugin Boilerplate](https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate): 一个wordpress插件开发基础框架，提供一个干净并且一致性的指南方便你开发你的插件
 - [WordPress Plugin Bootstrap](https://github.com/claudiosmweb/wordpress-plugin-boilerplate): Basic bootstrap to develop WordPress plugins using Grunt, Compass, GIT, and SVN.
 - [WP Skeleton Plugin](https://github.com/ptahdunbar/wp-skeleton-plugin): Skeleton plugin that focuses on unit tests and use of composer for development.
 - [General search for WordPress plugin boilerplates on GitHub](https://github.com/search?q=wordpress+plugin+boilerplate&ref=reposearch)
