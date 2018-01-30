@@ -18,7 +18,7 @@ WordPress内置了一些简单的清洗数据的函数
 
 The `sanitize_*()` series of helper functions are super nice, as they ensure you’re ending up with safe data, and they require minimal effort on your part:
 
-sanitize _ *（）系列的helper函数非常棒，因为它们能确保您的数据安全：
+sanitize _ *（）系列的帮助函数非常棒，因为它们能确保您的数据安全：
 
 - [sanitize_email()](https://developer.wordpress.org/reference/functions/sanitize_email/)
 - [sanitize_file_name()](https://developer.wordpress.org/reference/functions/sanitize_file_name/)
