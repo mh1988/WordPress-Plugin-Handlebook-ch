@@ -6,13 +6,12 @@
 
 本章我们将讲解如何检查用户，包括验证以及清洗用户输入内容和输出内容，创建验证问题
 
-## Quick Reference [#Quick Reference](https://developer.wordpress.org/plugins/security/#quick-reference)
+## 参考 [#参考](https://developer.wordpress.org/plugins/security/#quick-reference)
 
-See the complete example of [security best practices for WordPress plugins and themes](https://developer.wordpress.org/plugins/security/nonces/#complete-example).
+这里有一个完整的例子[插件和主题开发的最佳安全开发练习](https://developer.wordpress.org/plugins/security/nonces/#complete-example).
 
-[Top ↑](https://developer.wordpress.org/plugins/security/#top)
+## 外部资源 [#外部资源](https://developer.wordpress.org/plugins/security/#external-resources)
 
-## External Resources [#External Resources](https://developer.wordpress.org/plugins/security/#external-resources)
+- [如何修复容易受攻击的插件](https://make.wordpress.org/plugins/2013/11/24/how-to-fix-the-intentionally-vulnerable-plugin/) by Jon Cave
+- [主题和插件的安全](http://wordpress.tv/2011/01/29/mark-jaquith-theme-plugin-security/) presentation by Mark Jaquith
 
-- [How to fix the intentionally vulnerable plugin](https://make.wordpress.org/plugins/2013/11/24/how-to-fix-the-intentionally-vulnerable-plugin/) by Jon Cave
-- [Theme and Plugin Security](http://wordpress.tv/2011/01/29/mark-jaquith-theme-plugin-security/) presentation by Mark Jaquith
